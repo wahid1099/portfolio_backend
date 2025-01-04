@@ -5,7 +5,7 @@ const aboutSchema = new Schema<IAbout>(
   {
     name: {
       type: String,
-      default: "Sheikh Mohammad Nazmul Hasan",
+      default: "ABDUL WAHID",
     },
     bio: {
       type: String,
@@ -13,11 +13,11 @@ const aboutSchema = new Schema<IAbout>(
     },
     age: {
       type: Number,
-      default: () => new Date().getFullYear() - 2003,
+      default: () => new Date().getFullYear() - 2000,
     },
     designation: {
       type: String,
-      default: "Full Stack Developer",
+      default: "Competitive Programmer && Software Engineer",
     },
     description: {
       type: String,

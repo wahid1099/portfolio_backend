@@ -4,7 +4,7 @@ const mongoose_1 = require("mongoose");
 const aboutSchema = new mongoose_1.Schema({
     name: {
         type: String,
-        default: "Sheikh Mohammad Nazmul Hasan",
+        default: "ABDUL WAHID",
     },
     bio: {
         type: String,
@@ -12,11 +12,11 @@ const aboutSchema = new mongoose_1.Schema({
     },
     age: {
         type: Number,
-        default: () => new Date().getFullYear() - 2003,
+        default: () => new Date().getFullYear() - 2000,
     },
     designation: {
         type: String,
-        default: "Full Stack Developer",
+        default: "Competitive Programmer && Software Engineer",
     },
     description: {
         type: String,

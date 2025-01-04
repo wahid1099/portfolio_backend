@@ -5,6 +5,7 @@ import ValidationRequest from "../../middlewares/zod-validation";
 import { aboutValidationSchema } from "./about.validation";
 
 const router: Router = Router();
+router.post("/", AboutControllers.createOrUpdateAbout);
 
 router.get("/", AboutControllers.getAbout);
 

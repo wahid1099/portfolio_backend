@@ -21,9 +21,9 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://nazmuldev-dashboard.web.app",
+      "https://portfolio-backend-theta-ebon.vercel.app",
       "http://localhost:3000",
-      "https://nazmuldev-seven.vercel.app",
+      "https://wahid-dashboard.netlify.app",
     ],
     credentials: true,
   })
