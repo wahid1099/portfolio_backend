@@ -24,6 +24,7 @@ app.use(
       "https://portfolio-backend-theta-ebon.vercel.app",
       "http://localhost:3000",
       "https://wahid-dashboard.netlify.app",
+      "https://wahids-portfolio-website.vercel.app",
     ],
     credentials: true,
   })
