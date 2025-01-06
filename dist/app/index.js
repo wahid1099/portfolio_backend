@@ -34,7 +34,8 @@ app.use((0, cors_1.default)({
         "https://portfolio-backend-theta-ebon.vercel.app",
         "http://localhost:3000",
         "https://wahid-dashboard.netlify.app",
-        ""
+        "https://wahids-portfolio-website.vercel.app",
+        "https://wahids-portfolio-website.vercel.app/",
     ],
     credentials: true,
 }));

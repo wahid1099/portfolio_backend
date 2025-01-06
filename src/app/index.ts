@@ -25,6 +25,7 @@ app.use(
       "http://localhost:3000",
       "https://wahid-dashboard.netlify.app",
       "https://wahids-portfolio-website.vercel.app",
+      "https://wahids-portfolio-website.vercel.app/",
     ],
     credentials: true,
   })

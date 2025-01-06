@@ -21,7 +21,7 @@ exports.sendContactEmail = (0, catch_async_1.default)(function (req, res) {
     return __awaiter(this, void 0, void 0, function* () {
         const sendMail = yield transporter_1.default.sendMail({
             subject: `New Contact Form Submission by ${req.body.name}`,
-            to: "nazmulofficial@outlook.com",
+            to: "eng.wahid917@gmail.com",
             replyTo: req.body.email,
             html: (0, contact_notification_template_1.default)(req.body),
         });

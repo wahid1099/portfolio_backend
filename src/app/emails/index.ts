@@ -10,7 +10,7 @@ export const sendContactEmail = catchAsync(async function (
 ) {
   const sendMail = await transporter.sendMail({
     subject: `New Contact Form Submission by ${req.body.name}`,
-    to: "nazmulofficial@outlook.com",
+    to: "eng.wahid917@gmail.com",
     replyTo: req.body.email,
     html: contactNotificationTemplate(req.body),
   });
