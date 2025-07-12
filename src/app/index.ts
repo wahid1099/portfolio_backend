@@ -21,6 +21,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
+       "https://wahids-portfolio.netlify.app",
       "https://portfolio-backend-theta-ebon.vercel.app",
       "http://localhost:3000",
       "https://wahid-dashboard.netlify.app",
