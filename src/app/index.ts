@@ -21,17 +21,16 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-       "https://wahids-portfolio.netlify.app",
+      "https://wahids-portfolio.netlify.app",
       "https://portfolio-backend-theta-ebon.vercel.app",
       "http://localhost:3000",
       "https://wahid-dashboard.netlify.app",
-      "https://wahids-portfolio-website.vercel.app",
-      "https://wahids-portfolio-website.vercel.app/",
-      "https://wahids-portfolio.netlify.app/",
+      "https://wahids-portfolio-website.vercel.app"
     ],
     credentials: true,
   })
 );
+
 
 app.use(cookieParser());
 app.use(express.json());
