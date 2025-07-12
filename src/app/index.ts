@@ -26,6 +26,7 @@ app.use(
       "https://wahid-dashboard.netlify.app",
       "https://wahids-portfolio-website.vercel.app",
       "https://wahids-portfolio-website.vercel.app/",
+      "https://wahids-portfolio.netlify.app/",
     ],
     credentials: true,
   })
