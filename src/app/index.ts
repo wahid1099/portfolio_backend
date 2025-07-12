@@ -20,8 +20,9 @@ const app: Application = express();
 app.use(
   cors({
     origin: [
+        "https://wahids-portfolio.netlify.app",
       "http://localhost:5173",
-      "https://wahids-portfolio.netlify.app",
+    
       "https://portfolio-backend-theta-ebon.vercel.app",
       "http://localhost:3000",
       "https://wahid-dashboard.netlify.app",
