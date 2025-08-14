@@ -40,6 +40,7 @@ app.use((0, cors_1.default)({
         "https://wahids-portfolio.netlify.app",
         "https://port-folio-website-new-mocha.vercel.app",
         "https://eng-wahid-portfoliio.netlify.app",
+        "http://localhost:8080"
         
     ],
     credentials: true,
