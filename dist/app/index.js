@@ -38,6 +38,9 @@ app.use((0, cors_1.default)({
         "https://wahids-portfolio-website.vercel.app",
         "https://wahids-portfolio-website.vercel.app/",
         "https://wahids-portfolio.netlify.app",
+        "https://port-folio-website-new-mocha.vercel.app",
+        "https://eng-wahid-portfoliio.netlify.app",
+        
     ],
     credentials: true,
 }));
